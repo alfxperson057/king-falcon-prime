@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>king falcon prime</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylee.css">
+</head>
+
+<body>
+
+<!-- Konten Akan Muncul Di Sini -->
+<div class="section-container">
+  <div id="content"></div>
+</div>
+
+<div class="cta-container">
+    <a href="index.html#services" class="btn-primary">⬅ Kembali</a>
+</div>
+
+<!-- SCRIPT TARUH DI BAWAH -->
+<script>
+const params = new URLSearchParams(window.location.search);
+const menu = params.get("menu");
+const content = document.getElementById("content");
+
+if(menu === "a"){
+    content.innerHTML = `
+        <section class=" id="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Gabung sekarang!</h2>
+            <p class="section-desc">
+            pilih grup/saluran sesuai kebutuhan!.
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <a href="https://chat.whatsapp.com/xxxx" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <h3 class="service-title">Promosi Digital</h3>
+                <p>Grup WhatsApp untuk promosi produk digital dan berbagi peluang bisnis online bersama.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <a href="https://whatsapp.com/channel/0029VaebWXXIN9iofSAeJO1t" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <h3 class="service-title">JB Aku FF</h3>
+                <p>Saluran WhatsApp khusus jual beli akun Free Fire (FF).</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+`;
+}
+else if(menu === "b"){
+    content.innerHTML = `
+
+<section class=" id="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Gabung sekarang!</h2>
+            <p class="section-desc">
+            pilih grup sesuai kebutuhan
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <!-- Telegram -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <a href="https://www.facebook.com/share/g/1DgLpyzHYk/" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <h3 class="service-title">Facebook Group</h3> 
+                <p>Mari promosikan Lynk.id kalian di grup ini dan jangkau lebih banyak audiens,Gabung sekarang dan promosikan Lynk.id atau produk digital kamu secara gratis!
+                </p>   
+        </div>
+
+
+        </div>
+    </div>
+</section>
+    `;
+}
+else if(menu === "c"){
+    content.innerHTML = `
+        <section class=" id="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Gabung sekarang!</h2>
+            <p class="section-desc">
+            pilih grup sesuai kebutuhan
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <!-- Telegram -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <a href="https://t.me/+sE-XW4UMI54yMTU1" target="_blank">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                </div>
+                <h3 class="service-title">Telegram Group</h3>
+            <p>Bergabung di grup Telegram kami untuk mendapatkan buku PDF gratis dan premium, serta berdiskusi seputar coding, trading, dan produk digital.
+            </p>  
+        </div>
+
+
+        </div>
+    </div>
+</section>
+    `;
+}
+else if(menu === "d"){
+    content.innerHTML = `
+        <section class=" id="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Beli sekarang!</h2>
+            <p class="section-desc">
+             pilih produk ditoko sesuai kebutuhan
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+                <!-- Lynk ID -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <a href="https://lynk.id/allstorynestdigital" target="_blank">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+                <h3 class="service-title">Lynk ID</h3>
+                <p>Masuk ke Lynk.id kami, banyak produk yang bisa Anda jual kembali dengan keuntungan menarik,Tersedia banyak produk yang bisa Anda jual kembali. Yuk mulai usaha sekarang.</p>
+            </div>
+
+            
+
+        </div>
+    </div>
+</section>
+    `;
+}
+else if(menu === "e"){
+    content.innerHTML = `
+       <section class=" id="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Gabung sekarang!</h2>
+            <p class="section-desc">
+            cari toko atau cenel lainya sesuai kebutuhan!.
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <a href="https://chat.whatsapp.com/xxxx" target="_blank">
+                        <i class="fab fa-shopify"></i>
+                    </a>
+                </div>
+                <h3 class="service-title">Promosi Digital</h3>
+                <p>Grup WhatsApp untuk promosi produk digital dan berbagi peluang bisnis online bersama.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+    `;
+}
+else{
+    content.innerHTML = "<h2>Pilih menu dulu</h2>";
+}
+</script>
+
+<!-- Statcounter -->
+<script type="text/javascript">
+var sc_project=13204720; 
+var sc_invisible=1; 
+var sc_security="fe599e5f"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+
+<script src="secrip.js"></script>
+
+</body>
+</html>
